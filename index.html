@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora IMC - Felipe</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <main>
+        <h2>Calculadora de IMC</h2>
+        <div class="divAltura">
+            <label for="altura">Digite sua altura:</label>
+            <input type="numero" id="altura" placeholder="Exemplo: 1.80" />
+        </div>
+        <div class="divPeso">
+            <label for="peso">Digite seu peso:</label>
+            <input type="numero" id="peso" placeholder="Exemplo: 70kg" />
+        </div>
+
+        <div class="divCalc">
+            <button onclick="calcIMC()">Calcular</button>
+            <button onclick="apagar()">Limpar</button>
+        </div>
+        <div id="resultado"></div>
+    </main>
+
+
+    <script src="script.js"></script>
+    
+    
+    
+</body>
+
+</html>
